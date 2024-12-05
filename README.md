@@ -91,7 +91,14 @@ while t == True:
 red.off()
 ```
 
+I used the python interpreter Thonny to write this. Although this file and code can be run in any python interpretor, I would suggest running it in Thonny. 
+This block of code represents how to tell the pi to run the distance sensor and process the information. button.waitforpress() instructs the code to wait until the button is pressed until continuing on to the next set of code. You can change the distance that you wish to detect by changing the if line that sttes 'if sensor.distance * 100 < 10.00:' The 10.00 is the distance that we have told the pi to declare an intrusion at. red.off() at the end of the code instructs the LED to turn off when the program is over, this is due to the fact that the LED will remain on otherwise. If it is not turned off with that line of code, then a second attempt of running the code with the LED still on may produce a result where the LED doesn't trigger when an intrustion is detected.
 
+**5: Done!**
+
+If you have followed all of the steps correctly, you should have a working distance intrusion detector. If yours does not seem to work, I would suggest going through your inputs first to make sure the physical components are hooked up correctly. I would advise you to check that each input works and can be triggered before moving onto a second input. This reduces the chances of more issues arising or a lengthy search for one. Another thing to check is the resistors. Wrong resistors can cause a component to draw too little or too much power, preventing it from working. There are online guides that can help you calculate the resistance of four and five band resistors. 
+
+Thank you for reading! 
         
         
 
