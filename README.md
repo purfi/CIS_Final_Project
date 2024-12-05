@@ -52,7 +52,11 @@ The yellow wire is in B21, next to the end of the resistor. This connects to pin
 
 ![image](https://github.com/user-attachments/assets/32969208-21ff-4a5a-a756-e47864def5f3)
 
-This is how the button should be set up. Make sure that your button is facing the exact direction displayed. If it is rotated then the button will not work. There should only be one hole between the legs towards the left like shown in the picture.
+This is how the button should be set up. Make sure that your button is facing the exact direction displayed. If it is rotated then the button will not work. There should only be one hole between the legs towards the left like shown in the picture. The buttom jumper wire needs to be connected to GPIO 17 which is pin 11 on the Pi. The top jumper wire is connected to a ground pin, I used pin 39 on the Pi.
+
+**4: Time to Code!** 
+
+
 
 
 
